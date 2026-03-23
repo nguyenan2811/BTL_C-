@@ -24,8 +24,8 @@ namespace BTL_QLsieuthi
             cboTaiKhoan.SelectedIndexChanged += cboTaiKhoan_SelectedIndexChanged;
             clbQuyen.ItemCheck += clbQuyen_ItemCheck;
 
-            button1.Click += button1_Click; // Đóng
-            button2.Click += button2_Click; // Lưu
+            button1.Click += button1_Click; 
+            button2.Click += button2_Click; 
         }
 
         private void FrmPhanQuyen_Load(object sender, EventArgs e)
@@ -80,11 +80,11 @@ namespace BTL_QLsieuthi
 
                 if (quyen == "ADMIN")
                 {
-                    clbQuyen.SetItemChecked(0, true); // Quản lý
+                    clbQuyen.SetItemChecked(0, true); 
                 }
                 else if (quyen == "NVBH")
                 {
-                    clbQuyen.SetItemChecked(1, true); // Nhân viên bán hàng
+                    clbQuyen.SetItemChecked(1, true); 
                 }
 
                 dangTai = false;
@@ -98,7 +98,7 @@ namespace BTL_QLsieuthi
                 return;
             }
 
-            // chỉ cho chọn 1 quyền
+        
             for (var i = 0; i < clbQuyen.Items.Count; i++)
             {
                 if (i != e.Index)
