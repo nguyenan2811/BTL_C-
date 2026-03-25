@@ -150,7 +150,7 @@ namespace BTL_QLsieuthi
             this.lblDienThoai.AutoSize = true;
             this.lblDienThoai.Location = new System.Drawing.Point(399, 98);
             this.lblDienThoai.Name = "lblDienThoai";
-            this.lblDienThoai.Size = new System.Drawing.Size(65, 16);
+            this.lblDienThoai.Size = new System.Drawing.Size(66, 16);
             this.lblDienThoai.TabIndex = 3;
             this.lblDienThoai.Text = "Điện thoại";
             // 
@@ -214,9 +214,9 @@ namespace BTL_QLsieuthi
             // lblTimKiem
             // 
             this.lblTimKiem.AutoSize = true;
-            this.lblTimKiem.Location = new System.Drawing.Point(419, 35);
+            this.lblTimKiem.Location = new System.Drawing.Point(413, 35);
             this.lblTimKiem.Name = "lblTimKiem";
-            this.lblTimKiem.Size = new System.Drawing.Size(73, 16);
+            this.lblTimKiem.Size = new System.Drawing.Size(86, 16);
             this.lblTimKiem.TabIndex = 0;
             this.lblTimKiem.Text = "Nhập từ khóa";
             // 

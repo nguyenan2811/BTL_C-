@@ -275,7 +275,7 @@ namespace BTL_QLsieuthi
             // lblTimKiem
             // 
             this.lblTimKiem.AutoSize = true;
-            this.lblTimKiem.Location = new System.Drawing.Point(552, 31);
+            this.lblTimKiem.Location = new System.Drawing.Point(514, 31);
             this.lblTimKiem.Name = "lblTimKiem";
             this.lblTimKiem.Size = new System.Drawing.Size(91, 16);
             this.lblTimKiem.TabIndex = 0;
