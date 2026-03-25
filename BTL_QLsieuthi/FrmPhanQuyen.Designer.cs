@@ -73,6 +73,7 @@ namespace BTL_QLsieuthi
             this.cboTaiKhoan.Name = "cboTaiKhoan";
             this.cboTaiKhoan.Size = new System.Drawing.Size(255, 24);
             this.cboTaiKhoan.TabIndex = 5;
+            this.cboTaiKhoan.SelectedIndexChanged += new System.EventHandler(this.cboTaiKhoan_SelectedIndexChanged);
             // 
             // groupBox2
             // 
@@ -95,6 +96,7 @@ namespace BTL_QLsieuthi
             this.clbQuyen.Name = "clbQuyen";
             this.clbQuyen.Size = new System.Drawing.Size(668, 123);
             this.clbQuyen.TabIndex = 6;
+            this.clbQuyen.ItemCheck += new System.Windows.Forms.ItemCheckEventHandler(this.clbQuyen_ItemCheck);
             // 
             // button1
             // 
@@ -105,6 +107,7 @@ namespace BTL_QLsieuthi
             this.button1.TabIndex = 7;
             this.button1.Text = "Đóng";
             this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // button2
             // 
@@ -114,6 +117,7 @@ namespace BTL_QLsieuthi
             this.button2.TabIndex = 8;
             this.button2.Text = "Lưu";
             this.button2.UseVisualStyleBackColor = true;
+            this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
             // FrmPhanQuyen
             // 
