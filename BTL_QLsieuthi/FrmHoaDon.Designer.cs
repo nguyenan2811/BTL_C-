@@ -160,6 +160,7 @@ namespace BTL_QLsieuthi
             this.btnLamMoi.TabIndex = 11;
             this.btnLamMoi.Text = "Làm mới";
             this.btnLamMoi.UseVisualStyleBackColor = true;
+            this.btnLamMoi.Click += new System.EventHandler(this.btnLamMoi_Click);
             // 
             // txtGhiChu
             // 
