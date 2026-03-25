@@ -79,7 +79,7 @@
             this.chkHienMatKhau.TabIndex = 4;
             this.chkHienMatKhau.Text = "Hiện Mật Khẩu";
             this.chkHienMatKhau.UseVisualStyleBackColor = true;
-            this.chkHienMatKhau.CheckedChanged += new System.EventHandler(this.chkHienMatKhau_CheckedChanged_1);
+            this.chkHienMatKhau.CheckedChanged += new System.EventHandler(this.chkHienMatKhau_CheckedChanged);
             // 
             // btnThoat
             // 
