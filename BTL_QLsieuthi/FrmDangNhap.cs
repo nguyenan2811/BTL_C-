@@ -88,5 +88,6 @@ namespace BTL_QLsieuthi
         {
             txtMatKhau.UseSystemPasswordChar = !chkHienMatKhau.Checked;
         }
+
     }
 }
